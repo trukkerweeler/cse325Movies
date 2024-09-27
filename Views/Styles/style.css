@@ -1,0 +1,14 @@
+.columns {
+    float: left;
+    width: 30%;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.column2 {
+    width: 10%;
+}
